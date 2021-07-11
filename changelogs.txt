@@ -1,0 +1,19 @@
+Changelogs:
+
+Version 1.5:
+
+- Re adjusted the social links in the loader.
+- Added hover colors on social links in the loader.
+- theme.css was re-arranged for better styling placement.
+- description was changed.
+
+Version 1.6:
+
+- Reworked the index.html
+- Removed the hr design from the social footer from the preloader
+
+Version 1.7:
+
+- scrollspy function issue has been fixed.
+-footer
+-fixed loader covers all
