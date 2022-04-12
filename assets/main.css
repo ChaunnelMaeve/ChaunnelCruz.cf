@@ -1,0 +1,125 @@
+/**
+
+MAIN CSS DESIGN
+
+*/
+
+html {
+    max-height: 100%;
+    max-width: 100%;
+    font-family: Times New Roman;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+header{
+	position:relative;
+	width:100%;
+	top:0;
+}
+
+.banner {
+	height:100vh;
+	position:relative;
+	width:100%;
+	overflow: hidden;
+}
+
+.nav-link {
+    color:#fff;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.brand {
+    width:20vh;
+    height: auto;
+    
+}
+
+.btn-cust {
+
+    margin-top: 10px;    
+}
+
+.discount {
+    margin-top:0px;
+}
+
+.dream-house {
+    background-color: #DEE4E7;
+}
+
+.welcome {
+    background-color: #fff;
+}
+
+.carousel-title {
+    color: 	#006400;
+    font-weight: bold;
+}
+
+.card-title {
+    text-align: center;
+}
+
+ .fa {
+     cursor: pointer;
+     font-size: 21px;
+     margin: 5px 10px 5px 10px !important
+ }
+
+
+ .social {
+     position: relative;
+     left: -10px
+ }
