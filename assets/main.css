@@ -1,0 +1,104 @@
+/**
+
+MAIN CSS DESIGN
+
+*/
+
+html {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: Times New Roman;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #006400;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.brand{width:20vh;height:auto}
+
+.bg-image {
+    height: 100vh;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.content-title {
+    font-size: 50px;
+}
+.header-content {
+    font-size: 3vh;
+}
+
+.btn-cust {
+    margin-top: 10px;
+}
+
+.discount {
+    max-width: 5vw;
+    height: auto;
+}
+
+.dropdown-group {
+    background-color: #D3D3D3;
+}
+
+.dropdown-info {
+    color: #006400;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fci-dahon {
+    background:url('https://www.fiestacommunities.com/theme/fiesta_2015/img/green_dahon.png')no-repeat center center;
+    height: 47px;
+    display: block;
+}
+
+.filler {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.btn-cust-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
