@@ -4,7 +4,7 @@ MAIN CSS DESIGN
 
 */
 
-html {
+html, body {
     max-height: 100%;
     max-width: 100%;
     width: 100%;
@@ -12,6 +12,9 @@ html {
     font-family: Times New Roman;
 }
 
+body {
+    overflow-x: hidden;
+}
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon {
   color: #fff;
