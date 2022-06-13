@@ -1,0 +1,106 @@
+/**
+This is the main css file
+**/
+html, body {
+	font-family: Poppins;
+	/* USERS CANT SELECT TEXTS IN WEB */
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+	border: 0;
+}
+
+.text-custom {
+	color: #0062ff;
+}
+.nav-link {
+    font-size: 1rem;
+    color: black;
+    font-family: Poppins;
+    /**-webkit-text-stroke: 0.3px black;**/
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-logo {
+    height:100%;
+    width: 20vw;
+}
+
+.header-title {
+    color: #16558f;
+}
+
+.btn-cust {
+    font-weight: bold;
+}
+
+.nav-tabs {
+  border-bottom: 0px solid transparent;
+}
+.nav-tabs .nav-link {
+  border: 0px solid transparent;
+}
+
+
+/** preloader **/
+.center {
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+}
+
+.pageloader {
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.loaderimage {
+    height: auto;
+	min-width: auto;
+    max-width: 40vh;
+}
+/** preloader end **/
+
+.c2a6 h1,
+.c2a6 h2,
+.c2a6 h3,
+.c2a6 h4,
+.c2a6 h5,
+.c2a6 h6 {
+  color: #3e4555;
+}
+
+
+.c2a6 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.c2a6 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
