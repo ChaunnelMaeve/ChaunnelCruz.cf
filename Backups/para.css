@@ -83,7 +83,8 @@ body {
 .sec {
 	position: absolute;
 	padding: 100px;
-	background: #112343;
+	background-color: #112343;
+	background: url('ug2.png');
 }
 
 .sec h2 {
