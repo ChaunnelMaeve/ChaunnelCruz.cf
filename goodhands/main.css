@@ -104,14 +104,17 @@ body {
 	/* margin-left: 10px; */
 	color: #fff !important;
 	border-radius: 2em !important;
+	border: none !important;
 }
 
 .gh-btn:active {
 	box-shadow: none !important;
+	border: none !important;
 }
 
 .gh-btn:hover {
 	-webkit-box-shadow: 10px 0 0 #249225 inset;
+	border: none !important;
 }
 
 .form-link {
