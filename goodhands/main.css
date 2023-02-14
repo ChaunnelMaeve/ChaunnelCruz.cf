@@ -111,7 +111,7 @@ body {
 }
 
 .gh-btn:hover {
-	-webkit-box-shadow: -200px 0 0 #249225 inset;
+	-webkit-box-shadow: 10px 0 0 #249225 inset;
 }
 
 .form-link {
